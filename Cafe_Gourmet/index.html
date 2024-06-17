@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CAFE GOURMET LTDA</h1>
+        <nav>
+            <a href="cart.html">Carrinho</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Cadastro</a> <!-- Novo link para cadastro -->
+        </nav>
+    </header>
+    <main>
+        <section class="product-section">
+            <h2>Produtos</h2>
+            <div class="product-list">
+                <div class="product">
+                    <h3>Produto 1</h3>
+                    <p>Descrição do produto 1</p>
+                    <p>Preço: R$10.00</p>
+                    <button onclick="addToCart('Produto 1', 10)">Adicionar ao Carrinho</button>
+                </div>
+                <div class="product">
+                    <h3>Produto 2</h3>
+                    <p>Descrição do produto 2</p>
+                    <p>Preço: R$20.00</p>
+                    <button onclick="addToCart('Produto 2', 20)">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </section>
+        <section class="promotion-section">
+            <h2>Promoções</h2>
+            <div class="promotion-list">
+                <div class="promotion">
+                    <h3>Promoção 1</h3>
+                    <p>Descrição da promoção 1</p>
+                    <p>Preço: R$5.00</p>
+                    <button onclick="addToCart('Promoção 1', 5)">Adicionar ao Carrinho</button>
+                </div>
+                <div class="promotion">
+                    <h3>Promoção 2</h3>
+                    <p>Descrição da promoção 2</p>
+                    <p>Preço: R$15.00</p>
+                    <button onclick="addToCart('Promoção 2', 15)">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
